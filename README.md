@@ -72,7 +72,8 @@ astra dev start
     * Extract the data from API
     * Transform the data from 5.b to be inline with the target structure.
     * Insert the record into the `apod_data` table.
-6. Restart astro environment.
+6. Create the `docker-compose.yml` file for the Postgres service.
+7. Restart astro environment.
 
 ````bash
 astro dev restart
